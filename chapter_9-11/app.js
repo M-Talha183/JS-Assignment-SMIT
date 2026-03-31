@@ -92,3 +92,84 @@ console.log(`Marks Sheet \n \n \n Total Marks : ${total_marks} \n
    console.log("Fail")
 }
 
+// Answer 7
+// Store secret number
+let secretNumber = 7;
+
+// Ask user to guess
+let userGuess = +prompt("Guess the secret number (1 to 10):");
+
+// Check conditions
+if (userGuess === secretNumber) {
+    alert("Bingo! Correct answer");
+} else if (userGuess + 1 === secretNumber) {
+    alert("Close enough to the correct answer");
+} else {
+    alert("Try again!");
+}
+
+// Answer 8
+// Take number input
+let num = +prompt("Enter a number:");
+
+// Check divisibility
+if (num % 3 === 0) {
+    alert("The number is divisible by 3");
+} else {
+    alert("The number is NOT divisible by 3");
+}
+
+// Answer 9
+// Take input
+let number = +prompt("Enter a number:");
+
+// Check even or odd
+if (number % 2 === 0) {
+    alert("The number is Even");
+} else {
+    alert("The number is Odd");
+}
+// asnwer 10
+// Take temperature input
+let temp = +prompt("Enter temperature:");
+
+// Check conditions
+if (temp > 40) {
+    alert("It is too hot outside.");
+} else if (temp > 30) {
+    alert("The Weather today is Normal.");
+} else if (temp > 20) {
+    alert("Today’s Weather is cool.");
+} else if (temp > 10) {
+    alert("OMG! Today’s weather is so Cool.");
+} else {
+    alert("It is very cold outside.");
+}
+
+//  asnwer 11
+// Take inputs
+let num1 = +prompt("Enter first number:");
+let num2 = +prompt("Enter second number:");
+let operation = prompt("Enter operation (+, -, *, /, %):");
+
+let result;
+
+// Perform calculation
+if (operation === "+") {
+    result = num1 + num2;
+} else if (operation === "-") {
+    result = num1 - num2;
+} else if (operation === "*") {
+    result = num1 * num2;
+} else if (operation === "/") {
+    result = num1 / num2;
+} else if (operation === "%") {
+    result = num1 % num2;
+} else {
+    alert("Invalid operation");
+}
+
+// Show result
+if (result !== undefined) {
+    alert("Result is: " + result);
+}
