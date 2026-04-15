@@ -71,3 +71,27 @@ for (let i = 1; i <= 19; i += 2) {
 for (let i = 2; i <= 20; i += 2) {
   document.writeln(i + "k, ");
 }
+
+// You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+
+
+let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+let userInput = prompt("Enter the item you want to search for: ");
+let found = false;  
+for (let i = 0; i < A.length; i++) {
+  if (A[i].toLowerCase() === userInput.toLowerCase()) {
+    found = true;
+    break;
+  }
+}
+
+if (found) {
+  alert(userInput + " is found in the list.");
+} else {
+  alert(userInput + " is not found in the list.");
+}
