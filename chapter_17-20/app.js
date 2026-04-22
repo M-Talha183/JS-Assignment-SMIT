@@ -119,3 +119,10 @@ for (let i = 1; i <= 10; i++) {
   }
   console.log(i);
 }
+// continue statement
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    continue; // Skip the rest of the loop when i is 5
+  }
+  console.log(i);
+}
