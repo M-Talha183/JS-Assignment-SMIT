@@ -95,3 +95,18 @@ if (found) {
 } else {
   alert(userInput + " is not found in the list.");
 }
+
+
+// question 8 is missing in the provided code snippet. Please provide the complete code for question 8 if you want me to assist with it.
+
+// loop on two dimensional array
+let twoDimensionalArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+for (let i = 0; i < twoDimensionalArray.length; i++) {
+  for (let j = 0; j < twoDimensionalArray[i].length; j++) {
+    console.log(twoDimensionalArray[i][j]);
+  }
+}
