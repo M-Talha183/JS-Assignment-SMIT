@@ -19,6 +19,3 @@ function eidCountdown() {
     // document.writeln(`${days}d ${hours}h ${minutes}m ${seconds}s`);
   }, 1000);
 }
-
-// start countdown
-eidCountdown();
