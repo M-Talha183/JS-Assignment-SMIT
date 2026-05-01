@@ -24,3 +24,8 @@
 // var word = "Pakistani";
 // var charAtIndex3 = word.charAt(3);
 // alert("The character at index 3 in the word 'Pakistani' is: " + charAtIndex3);
+
+// 6. Write a program to replace the “Hyder” with “Islam” in the word “Hyderabad” and display the result in your browser
+// var city = "Hyderabad";
+// var newCity = city.replace("Hyder", "Islam");
+
