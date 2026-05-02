@@ -40,3 +40,9 @@
 // var strNumber = "472";   
 // var num = Number(strNumber);
 // alert("Value: " + num + "\nType: " + typeof num);
+
+
+// 9. Write a program that converts the variable num to string. Display the values & types in your browser
+// var num = 472;   
+// var strNumber = String(num);
+// alert("Value: " + strNumber + "\nType: " + typeof strNumber);
