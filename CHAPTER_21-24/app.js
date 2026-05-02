@@ -46,3 +46,10 @@
 // var num = 472;   
 // var strNumber = String(num);
 // alert("Value: " + strNumber + "\nType: " + typeof strNumber);
+
+
+
+// 10. Write a program that takes user input. Convert and show the input in capital letters.
+// var userInput = prompt("Enter a string:");
+// var upperCaseInput = userInput.toUpperCase();
+// alert("Your input in capital letters: " + upperCaseInput);
