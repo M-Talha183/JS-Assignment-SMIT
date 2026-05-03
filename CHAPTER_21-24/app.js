@@ -79,3 +79,13 @@
 //     alert("Current date and time: " + currentDateTime);
 // }
 // displayDateTime();
+
+
+// 2. Write a function that takes first & last name and then it greets the user using his full name.
+// function greetUser(firstName, lastName) {
+//     var fullName = firstName + " " + lastName;   
+//     alert("Hello, " + fullName + "!");
+// }
+// var firstName = prompt("Enter your first name:");
+// var lastName = prompt("Enter your last name:");
+// greetUser(firstName, lastName);
