@@ -89,3 +89,18 @@
 // var firstName = prompt("Enter your first name:");
 // var lastName = prompt("Enter your last name:");
 // greetUser(firstName, lastName);
+
+
+
+
+
+
+
+// 3. Write a function that adds two numbers (input by user) and returns the sum of two numbers.
+// function addNumbers(num1, num2) {
+//     return num1 + num2;  
+// }
+// var number1 = parseFloat(prompt("Enter the first number:"));
+// var number2 = parseFloat(prompt("Enter the second number:"));
+// var sum = addNumbers(number1, number2);
+// alert("The sum of " + number1 + " and " + number2 + " is: " + sum);
