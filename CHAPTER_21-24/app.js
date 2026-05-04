@@ -1,13 +1,4 @@
 
-//  
-// alert("The length of your input is: " + inputLength);
-// 3. Write a program to find the index of letter “n” in the word “Pakistani” and display the result in your browser
-// var word = "Pakistani";
-// var indexOfN = word.indexOf("n");
-// alert("The index of letter 'n' in the word 'Pakistani' is: " + indexOfN);
-// 4. Write a program to find the last index of letter “l” in the word “Hello World” and display the result in your browser
-// var phrase = "Hello World";
-
 //    var lastIndexOfL = phrase.lastIndexOf("l");
 //    alert("The last index of letter 'l' in the phrase 'Hello World' is: " + lastIndexOfL);
 // 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser
