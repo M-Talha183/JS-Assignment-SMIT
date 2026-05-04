@@ -30,6 +30,8 @@
 
 
 
+
+
 // 10. Write a program that takes user input. Convert and show the input in capital letters.
 // var userInput = prompt("Enter a string:");
 // var upperCaseInput = userInput.toUpperCase();
@@ -85,3 +87,35 @@
 // var number2 = parseFloat(prompt("Enter the second number:"));
 // var sum = addNumbers(number1, number2);
 // alert("The sum of " + number1 + " and " + number2 + " is: " + sum);
+
+
+
+
+
+// 4. Write a function that takes three arguments num1, num2 & operator. Compute the desired operation and return the result.
+// function calculate(num1, num2, operator) {
+//     var result;
+//     switch (operator) {
+//         case '+':
+//             result = num1 + num2;
+//             break;
+//         case '-':
+//             result = num1 - num2;
+//             break;
+
+//         case '*':
+//             result = num1 * num2;
+//             break;   
+//         case '/':
+//             result = num1 / num2;
+//             break;
+//         default:
+//             alert("Invalid operator! Please use +, -, *, or /.");
+//             return null;
+//     }
+
+//     return result;
+// }
+// var number1 = parseFloat(prompt("Enter the first number:"));
+// var number2 = parseFloat(prompt("Enter the second number:"));
+// var operator = prompt("Enter the operator (+, -, *, /):");
