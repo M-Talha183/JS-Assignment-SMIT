@@ -126,3 +126,11 @@
 // if (result !== null) {
 //     alert("The result of " + number1 + " " + operator + " " + number2 + " is: " + result);
 // }
+
+// 5. Write a function that squares its argument.
+// function square(num) {
+//     return num * num;
+// }
+
+
+// 
