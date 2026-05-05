@@ -133,4 +133,6 @@
 // }
 
 
-// 
+// var number = parseFloat(prompt("Enter a number to square:"));
+// var squaredValue = square(number);
+// alert("The square of " + number + " is: " + squaredValue);
