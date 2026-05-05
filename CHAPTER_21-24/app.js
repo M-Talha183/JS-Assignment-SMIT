@@ -119,3 +119,10 @@
 // var number1 = parseFloat(prompt("Enter the first number:"));
 // var number2 = parseFloat(prompt("Enter the second number:"));
 // var operator = prompt("Enter the operator (+, -, *, /):");
+
+
+
+// var result = calculate(number1, number2, operator);
+// if (result !== null) {
+//     alert("The result of " + number1 + " " + operator + " " + number2 + " is: " + result);
+// }
