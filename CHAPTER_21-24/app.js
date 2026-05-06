@@ -168,3 +168,20 @@
 // var startNumber = parseInt(prompt("Enter the start number:"));
 // var endNumber = parseInt(prompt("Enter the end number:"));
 // displayCounting(startNumber, endNumber);
+
+
+
+// 8. Write a nested function that computes the hypotenuse of a right angle triangle.
+// function calculateHypotenuse(base, perpendicular) {
+//     function square(num) {
+//         return num * num;
+//     }
+
+
+//     var hypotenuse = Math.sqrt(square(base) + square(perpendicular));
+//     return hypotenuse;
+// }
+// var base = parseFloat(prompt("Enter the base of the triangle:"));
+// var perpendicular = parseFloat(prompt("Enter the perpendicular of the triangle:"));
+// var hypotenuse = calculateHypotenuse(base, perpendicular);
+// alert("The hypotenuse of the triangle is: " + hypotenuse);
