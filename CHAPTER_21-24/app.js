@@ -155,3 +155,16 @@
 // var number = parseInt(prompt("Enter a number to compute its factorial:"));
 // var factorialResult = factorial(number);
 // alert("The factorial of " + number + " is: " + factorialResult);
+
+// 7. Write a function that take start and end number as inputs & display counting in your browser.
+// function displayCounting(start, end) {
+//     var counting = "";
+
+//     for (var i = start; i <= end; i++) {
+//         counting += i + " ";
+//     }
+//     alert("Counting from " + start + " to " + end + ": " + counting);
+// }
+// var startNumber = parseInt(prompt("Enter the start number:"));
+// var endNumber = parseInt(prompt("Enter the end number:"));
+// displayCounting(startNumber, endNumber);
