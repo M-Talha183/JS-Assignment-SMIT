@@ -136,3 +136,22 @@
 // var number = parseFloat(prompt("Enter a number to square:"));
 // var squaredValue = square(number);
 // alert("The square of " + number + " is: " + squaredValue);
+
+
+// 6. Write a function that computes factorial of a number.   
+// function factorial(n) {
+//     if (n < 0) {
+//         return "Factorial is not defined for negative numbers.";
+//     } else if (n === 0 || n === 1) {
+//         return 1;
+//     } else {
+//         var result = 1;
+//         for (var i = 2; i <= n; i++) {
+//             result *= i;
+//         }
+//         return result;
+//     }
+// }
+// var number = parseInt(prompt("Enter a number to compute its factorial:"));
+// var factorialResult = factorial(number);
+// alert("The factorial of " + number + " is: " + factorialResult);
