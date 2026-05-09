@@ -185,3 +185,16 @@
 // var perpendicular = parseFloat(prompt("Enter the perpendicular of the triangle:"));
 // var hypotenuse = calculateHypotenuse(base, perpendicular);
 // alert("The hypotenuse of the triangle is: " + hypotenuse);
+
+
+
+
+
+// 9. Write a function that calculates the area of a rectangle. A = width * height
+// function calculateArea(width, height) {
+//     return width * height;   
+// }
+// var width = parseFloat(prompt("Enter the width of the rectangle:"));
+// var height = parseFloat(prompt("Enter the height of the rectangle:"));
+// var area = calculateArea(width, height);
+// alert("The area of the rectangle is: " + area);
