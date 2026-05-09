@@ -198,3 +198,11 @@
 // var height = parseFloat(prompt("Enter the height of the rectangle:"));
 // var area = calculateArea(width, height);
 // alert("The area of the rectangle is: " + area);
+
+
+// 10. Write a JavaScript function that checks whether a passed string is palindrome or not?    
+function isPalindrome(str) {
+    var cleanedStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+    var reversedStr = cleanedStr.split('').reverse().join('');
+    return cleanedStr === reversedStr;
+}
