@@ -37,3 +37,36 @@ handleQuestion("What is your name?");
 handleQuestion("How old are you?");
 handleQuestion("What is your favorite color?");
 handleQuestion("What is your favorite food?"); // This will trigger the default case
+
+
+
+
+// add some more questions 
+function askMoreQuestions() {
+    const questions = [
+        "What is your favorite hobby?",
+        "Where do you live?",
+        "What is your favorite food?"
+    ];
+    questions.forEach(question => {
+        const answer = askQuestion(question);
+        displayMessage(`Your answer to "${question}" is: ${answer}`);
+    });
+}
+// Example usage of the askMoreQuestions function
+askMoreQuestions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
