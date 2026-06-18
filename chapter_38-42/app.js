@@ -66,6 +66,12 @@ function mainFunction (){
     let percentage_marks = percentage(marks_1, marks_2, marks_3)
     document.write(`<p>Average Marks is ${average_marks} </p> `)
     document.write(`<p>Percentage Marks is ${percentage_marks} % </p> `)
-    
-    
+
+
 }
+
+function average(marks_1, marks_2, marks_3){
+    let average_marks = (marks_1 + marks_2 + marks_3) / 3
+    return average_marks
+}
+
