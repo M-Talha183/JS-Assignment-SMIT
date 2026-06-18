@@ -62,5 +62,10 @@ let marks_3 = +prompt("Enter the marks of subject 3 ....... ")
 
 
 function mainFunction (){
+    let average_marks = average(marks_1, marks_2, marks_3)
+    let percentage_marks = percentage(marks_1, marks_2, marks_3)
+    document.write(`<p>Average Marks is ${average_marks} </p> `)
+    document.write(`<p>Percentage Marks is ${percentage_marks} % </p> `)
+    
     
 }
