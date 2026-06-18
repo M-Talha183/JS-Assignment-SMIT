@@ -75,3 +75,11 @@ function average(marks_1, marks_2, marks_3){
     return average_marks
 }
 
+
+// question 4
+function percentage(marks_1, marks_2, marks_3){
+    let total_marks = 300
+    let obtained_marks = marks_1 + marks_2 + marks_3
+    let percentage_marks = (obtained_marks / total_marks) * 100
+    return percentage_marks
+}
