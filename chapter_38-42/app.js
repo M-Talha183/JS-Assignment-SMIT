@@ -134,3 +134,18 @@
 //     document.body.style.backgroundColor = "black"
 //     document.body.style.color = "white"
 // })
+
+
+
+// Q7 (To-Do App Level)
+
+// Create:
+
+// Input
+// Add Button
+
+// When clicked:
+
+// Save task in Local Storage
+// Display task
+// Data should remain after refresh
