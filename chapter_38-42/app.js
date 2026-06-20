@@ -1,6 +1,7 @@
 // // Write a custom function power ( a, b ), to calculate the value of
 // // a raised to b.
 
+
 // // let user_num_1 = +prompt("Enter the base number ....... ")
 // // let user_num_2 = +prompt("Enter the power number ........")
 
@@ -149,3 +150,22 @@
 // Save task in Local Storage
 // Display task
 // Data should remain after refresh
+
+let user_input = document.getElementById('user')
+let taskList = document.getElementById('taskList')
+
+
+console.log(user_input.value)
+
+let button = document.getElementById('addBtn')
+function task (){
+    let li = document.createElement('li');
+
+    li.textContent= user_input.value
+    taskList.appendChild(li)
+
+
+user_input.value = ""
+}
+
+button.addEventListener("click", task)
