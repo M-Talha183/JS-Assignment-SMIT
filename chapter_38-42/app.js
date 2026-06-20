@@ -104,13 +104,33 @@
 
 // ["HTML","CSS","JS"]
 
-let arr = ["HTML","CSS","JS"]
+// let arr = ["HTML","CSS","JS"]
 
-localStorage.setItem("course",arr)
+// localStorage.setItem("course",arr)
 
-let getData = localStorage.getItem("course")
-document.write(`<p>${typeof(getData) }</p> <br> <p>${getData.slice(0,4)}</p>
-<br>
-<p>${getData.slice(5,8)}</p>
-<br>
-<p>${getData.slice(9)}</p>`)
+// let getData = localStorage.getItem("course")
+// document.write(`<p>${typeof(getData) }</p> <br> <p>${getData.slice(0,4)}</p>
+// <br>
+// <p>${getData.slice(5,8)}</p>
+// <br>
+// <p>${getData.slice(9)}</p>`)
+
+
+// Store an object:
+
+// let my_obj = {
+//     name : "Talha",
+//     age: 250
+// }
+// localStorage.setItem("obj",my_obj)
+
+// document.write(`${localStorage.getItem(my_obj.age)}`)
+
+
+// Create a button.
+// let button = document.createElement("button").innerHTML = "dark mode"
+
+// button.addEventListener("click", function(){    
+//     document.body.style.backgroundColor = "black"
+//     document.body.style.color = "white"
+// })
